@@ -1,1 +1,40 @@
+The Rock, Paper, Scissors game is a classic hand game that is played between two people, where each player simultaneously forms one of three shapes with their hand. 
+The possible shapes are "rock," "paper," and "scissors." The game is simple and quick, providing an opportunity for a fun and engaging experience. 
+This project implements a digital version of the game where the user plays against a computer opponent.
 
+Objectives:
+    Create an interactive game that allows a user to play Rock, Paper, Scissors against the computer.
+    Implement game logic to determine the winner based on the standard rules: rock beats scissors, scissors beat paper, and paper beats rock.
+    Provide a user-friendly interface that offers clear instructions and feedback.
+    Incorporate score tracking to keep track of wins, losses, and ties for both the user and the computer.
+    Enable replay functionality to allow the user to play multiple rounds.
+
+Features:
+    User Input: Prompts the user to select one of the three options: rock, paper, or scissors.
+    Computer Selection: The computer randomly selects one of the three options.
+    Game Logic: Determines the winner based on the choices made by the user and the computer.
+    Result Display: Shows the choices made by both the user and the computer, and indicates the result of the game (win, lose, or tie).
+    Score Tracking: Keeps track of the number of wins, losses, and ties for both the user and the computer across multiple rounds.
+    Play Again: Asks the user if they want to play another round and restarts the game if the user agrees.
+    User Interface: Provides a simple and intuitive text-based interface with clear instructions and feedback.
+
+Technical Requirements:
+    Programming Language: Python
+    Libraries: random for generating computer choices
+    Environment: Command-line interface (CLI) or terminal for interaction
+
+Implementation Details:
+    Use Python’s random.choice() to generate the computer’s choice.
+    Implement a loop to handle multiple rounds of the game.
+    Use conditional statements to determine the outcome of each round.
+    Display the results and update scores after each round.
+    Provide options for the user to play again or exit the game.
+
+Future Enhancements:
+    Develop a graphical user interface (GUI) for a more visually appealing experience.
+    Add additional features such as player profiles, high scores, and game statistics.
+    Implement an AI opponent with different levels of difficulty.
+
+Usage:
+To play the game, run the Python script in a terminal or command prompt. Follow the on-screen prompts to make your choice and enjoy the game!
+This project provides a great opportunity to practice basic programming concepts and user interaction design in a fun and engaging way.
