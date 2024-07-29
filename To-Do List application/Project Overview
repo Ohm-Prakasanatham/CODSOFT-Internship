@@ -1,0 +1,37 @@
+The Command-Line To-Do List application is a simple yet powerful tool designed to help users manage and organize their tasks efficiently. 
+Built using Python, this application allows users to perform basic operations on their to-do lists, such as adding, updating, deleting, and viewing tasks, all from the command line. 
+This project is ideal for beginners who want to learn the fundamentals of Python programming and command-line interface (CLI) development.
+
+Features
+    Add Tasks: Users can add new tasks to their to-do list.
+    Update Tasks: Users can update existing tasks with new descriptions.
+    Delete Tasks: Users can remove tasks from their to-do list.
+    View Tasks: Users can view all the tasks currently in their to-do list.
+    Clear Screen: The application includes a function to clear the terminal screen for better readability.
+    User-Friendly Menu: A simple and intuitive menu-driven interface guides users through the available options.
+
+Technology Stack
+    Programming Language: Python
+    Libraries: Standard Python library (no additional packages required)
+    Environment: Command-line interface (CLI)
+
+Code Structure
+    ToDoList Class:
+        Manages the list of tasks and provides methods to add, update, delete, and view tasks.
+        Stores tasks in a list, with each task being a simple string.
+
+    Functions:
+        clear_screen(): Clears the terminal screen based on the operating system.
+        main(): The main function that provides a menu-driven interface for user interaction. It continuously prompts the user for actions and calls the appropriate methods on the ToDoList instance.
+
+How to Use
+    Run the Application:
+        Save the script to a file (e.g., todo.py).
+        Open the terminal or command prompt.
+        Navigate to the directory where the script is saved.
+        Run the script using the command python todo.py.
+
+    Interact with the Application:
+        Choose from the menu options to add, update, delete, or view tasks.
+        Follow the prompts to enter task descriptions or IDs as needed.
+        Exit the application by selecting the "Exit" option from the menu.
