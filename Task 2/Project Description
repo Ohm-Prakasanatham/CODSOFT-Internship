@@ -1,0 +1,37 @@
+The Simple Calculator is a command-line application designed to perform basic arithmetic operations. 
+It allows users to input two numbers and select an arithmetic operation (addition, subtraction, multiplication, or division) to perform on these numbers. 
+The calculator handles basic error checking, including validation of input types and division by zero.
+
+Features
+    Basic Arithmetic Operations:
+        Addition
+        Subtraction
+        Multiplication
+        Division
+
+    User Interaction:
+        Users are prompted to enter two numbers.
+        Users can select an operation to perform from a menu.
+        The result of the operation is displayed.
+        After each calculation, users are asked if they want to perform another calculation.
+
+    Error Handling:
+        Validates that the inputs are numbers.
+        Checks for division by zero and handles it gracefully by displaying an error message.
+
+How It Works
+    Welcome and Menu Display:
+        The application starts by displaying a welcome message and a menu of operations.
+        Users are prompted to select an operation by entering the corresponding number.
+
+    Input Handling:
+        The application prompts the user to enter two numbers.
+        It validates the input to ensure the numbers are valid floats.
+
+    Performing Calculations:
+        Based on the user's choice, the corresponding arithmetic operation is performed.
+        The result is displayed to the user.
+
+    Repeating Calculations:
+        After displaying the result, the user is asked if they want to perform another calculation.
+        If the user enters 'yes', the process repeats. Otherwise, the application terminates.
